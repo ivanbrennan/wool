@@ -1,5 +1,7 @@
 A Lush Theme for Neovim.
 ===
 
-See: http://git.io/lush.nvim for more information on Lush and a helper script
-to setup your repo clone.
+To regenerate colors/wool.vim and colors/wool-compatible.vim:
+```sh
+nix-shell --run shipwright
+```
