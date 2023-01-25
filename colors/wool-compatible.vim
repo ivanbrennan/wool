@@ -59,6 +59,7 @@ highlight VertSplit guifg=#2C2F30 guibg=#212226 guisp=NONE gui=NONE cterm=NONE
 highlight! link Winseparator VertSplit
 highlight Visual guifg=NONE guibg=#31343F guisp=NONE gui=NONE cterm=NONE
 highlight WarningMsg guifg=#F8BC3A guibg=NONE guisp=NONE gui=NONE cterm=NONE
+highlight healthSuccess guifg=bg guibg=#B9E067 guisp=NONE gui=NONE cterm=NONE
 highlight helpHyperTextJump guifg=#768798 guibg=#212226 guisp=NONE gui=underline cterm=underline
 highlight helpNote guifg=#D4D4D4 guibg=#212226 guisp=NONE gui=NONE cterm=NONE
 highlight helpSpecial guifg=#D4D4D4 guibg=#212226 guisp=NONE gui=NONE cterm=NONE

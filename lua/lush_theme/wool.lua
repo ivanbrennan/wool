@@ -206,6 +206,9 @@ local theme = lush(function(injected_functions)
     helpHyperTextJump { bg = grey03, fg = shale, gui = "underline" },
     helpNote     { bg = grey03, fg = grey12 },
 
+    -- Health syntax groups.
+    healthSuccess { bg = lime, fg = "bg" },
+
     -- These groups are for the native LSP client and diagnostic system. Some
     -- other LSP clients may use these groups, or use their own. Consult your
     -- LSP client's documentation.
