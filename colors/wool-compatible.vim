@@ -51,6 +51,17 @@ highlight Structure guifg=#5B95AE guibg=#212226 guisp=NONE gui=NONE cterm=NONE
 highlight TabLine guifg=#737373 guibg=#1C1D21 guisp=NONE gui=NONE cterm=NONE
 highlight TabLineFill guifg=#1C1D21 guibg=#1C1D21 guisp=NONE gui=NONE cterm=NONE
 highlight TabLineSel guifg=#D4D4D4 guibg=#212226 guisp=NONE gui=NONE cterm=NONE
+highlight TelescopeMatching guifg=#B9E067 guibg=#212226 guisp=NONE gui=NONE cterm=NONE
+highlight TelescopePreviewBorder guifg=#212226 guibg=#212226 guisp=NONE gui=NONE cterm=NONE
+highlight! link TelescopePreviewTitle TelescopePreviewBorder
+highlight TelescopePreviewNormal guifg=#D4D4D4 guibg=#212226 guisp=NONE gui=NONE cterm=NONE
+highlight TelescopePromptBorder guifg=#1C1D21 guibg=#1C1D21 guisp=NONE gui=NONE cterm=NONE
+highlight! link TelescopeResultsBorder TelescopePromptBorder
+highlight TelescopePromptCounter guifg=#737373 guibg=#1C1D21 guisp=NONE gui=NONE cterm=NONE
+highlight TelescopePromptNormal guifg=NONE guibg=#1C1D21 guisp=NONE gui=NONE cterm=NONE
+highlight! link TelescopeResultsNormal TelescopePromptNormal
+highlight TelescopePromptPrefix guifg=NONE guibg=#1C1D21 guisp=NONE gui=NONE cterm=NONE
+highlight TelescopeTitle guifg=#393D4C guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight TermCursor guifg=NONE guibg=NONE guisp=NONE gui=reverse cterm=reverse
 highlight Title guifg=#DEE0E7 guibg=NONE guisp=NONE gui=bold cterm=bold
 highlight Todo guifg=#B9E067 guibg=#212226 guisp=NONE gui=bold cterm=bold

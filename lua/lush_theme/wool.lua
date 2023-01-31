@@ -209,6 +209,63 @@ local theme = lush(function(injected_functions)
     -- Health syntax groups.
     healthSuccess { bg = lime, fg = "bg" },
 
+    -- Telescope syntax groups.
+    -- TelescopeSelection { } , -- links to Visual
+    -- TelescopeResultsComment { } , -- links to Comment
+    -- TelescopeSelectionCaret { } , -- links to TelescopeSelection
+    -- TelescopeMultiSelection { } , -- links to Type
+    -- TelescopeMultiIcon { } , -- links to Identifier
+    -- TelescopeNormal { } , -- links to Normal
+    TelescopePreviewNormal { bg = grey03, fg = grey12 } , -- links to TelescopeNormal
+    TelescopePromptNormal { bg = grey02 } , -- links to TelescopeNormal
+    TelescopeResultsNormal { TelescopePromptNormal } , -- links to TelescopeNormal
+    -- TelescopeBorder { } , -- links to TelescopeNormal
+    TelescopePromptBorder { bg = grey02, fg = grey02 } , -- links to TelescopeBorder
+    TelescopeResultsBorder { TelescopePromptBorder } , -- links to TelescopeBorder
+    TelescopePreviewBorder { bg = grey03, fg = grey03 } , -- links to TelescopeBorder
+    TelescopeTitle { fg = grey07 } , -- links to TelescopeBorder
+    -- TelescopePromptTitle { } , -- links to TelescopeTitle
+    -- TelescopeResultsTitle { } , -- links to TelescopeTitle
+    TelescopePreviewTitle { TelescopePreviewBorder } , -- links to TelescopeTitle
+    TelescopePromptCounter { bg = grey02, fg = grey08 } , -- links to NonText
+    TelescopeMatching { bg = grey03, fg = lime } , -- links to Special
+    TelescopePromptPrefix { bg = grey02 } , -- links to Identifier
+    -- TelescopePreviewLine { } , -- links to Visual
+    -- TelescopePreviewMatch { } , -- links to Search
+    -- TelescopePreviewPipe { } , -- links to Constant
+    -- TelescopePreviewCharDev { } , -- links to Constant
+    -- TelescopePreviewDirectory { } , -- links to Directory
+    -- TelescopePreviewBlock { } , -- links to Constant
+    -- TelescopePreviewLink { } , -- links to Special
+    -- TelescopePreviewSocket { } , -- links to Statement
+    -- TelescopePreviewRead { } , -- links to Constant
+    -- TelescopePreviewWrite { } , -- links to Statement
+    -- TelescopePreviewExecute { } , -- links to String
+    -- TelescopePreviewHyphen { } , -- links to NonText
+    -- TelescopePreviewSticky { } , -- links to Keyword
+    -- TelescopePreviewSize { } , -- links to String
+    -- TelescopePreviewUser { } , -- links to Constant
+    -- TelescopePreviewGroup { } , -- links to Constant
+    -- TelescopePreviewDate { } , -- links to Directory
+    -- TelescopePreviewMessage { } , -- links to TelescopePreviewNormal
+    -- TelescopePreviewMessageFillchar { } , -- links to TelescopePreviewMessage
+    -- TelescopeResultsClass { } , -- links to Function
+    -- TelescopeResultsConstant { } , -- links to Constant
+    -- TelescopeResultsField { } , -- links to Function
+    -- TelescopeResultsFunction { } , -- links to Function
+    -- TelescopeResultsMethod { } , -- links to Method
+    -- TelescopeResultsDiffUntracked { } , -- links to NonText
+    -- TelescopeResultsOperator { } , -- links to Operator
+    -- TelescopeResultsDiffDelete { } , -- links to DiffDelete
+    -- TelescopeResultsStruct { } , -- links to Struct
+    -- TelescopeResultsDiffAdd { } , -- links to DiffAdd
+    -- TelescopeResultsVariable { } , -- links to SpecialChar
+    -- TelescopeResultsDiffChange { } , -- links to DiffChange
+    -- TelescopeResultsLineNr { } , -- links to LineNr
+    -- TelescopeResultsSpecialComment { } , -- links to SpecialComment
+    -- TelescopeResultsIdentifier { } , -- links to Identifier
+    -- TelescopeResultsNumber { } , -- links to Number
+
     -- These groups are for the native LSP client and diagnostic system. Some
     -- other LSP clients may use these groups, or use their own. Consult your
     -- LSP client's documentation.
