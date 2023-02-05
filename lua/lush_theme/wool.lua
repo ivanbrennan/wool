@@ -99,7 +99,7 @@ local theme = lush(function(injected_functions)
     -- CursorIM     { }, -- Like Cursor, but used when in IME mode |CursorIM|
     CursorColumn { bg = grey05 }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
     CursorLine   { bg = grey05 }, -- Screen-line at the cursor, when 'cursorline' is set. Low-priority if foreground (ctermfg OR guifg) is not set.
-    Directory    { bg = grey03, fg = grey13, gui = "bold" }, -- Directory names (and other special names in listings)
+    Directory    { fg = grey11, gui = "bold" }, -- Directory names (and other special names in listings)
     DiffAdd      { bg = green }, -- Diff mode: Added line |diff.txt|
     DiffChange   { bg = darkred }, -- Diff mode: Changed line |diff.txt|
     DiffDelete   { bg = grey00, fg = grey00 }, -- Diff mode: Deleted line |diff.txt|
