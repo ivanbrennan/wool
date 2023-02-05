@@ -202,9 +202,11 @@ local theme = lush(function(injected_functions)
     Todo           { fg = lime, gui = "bold" }, -- Anything that needs extra attention; mostly the keywords TODO FIXME and XXX
 
     -- Help syntax groups.
-    helpSpecial  { fg = grey12 },
+    -- helpSpecial  { },
     helpHyperTextJump { fg = shale, gui = "underline" },
     helpNote     { fg = grey12 },
+    -- helpHeader   { },
+    -- helpSectionDelim { },
 
     -- Health syntax groups.
     healthSuccess { bg = lime, fg = "bg" },

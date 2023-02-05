@@ -74,7 +74,6 @@ highlight WarningMsg guifg=#F8BC3A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight healthSuccess guifg=bg guibg=#B9E067 guisp=NONE blend=NONE gui=NONE
 highlight helpHyperTextJump guifg=#768798 guibg=NONE guisp=NONE blend=NONE gui=underline
 highlight helpNote guifg=#D4D4D4 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight helpSpecial guifg=#D4D4D4 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight lCursor guifg=bg guibg=fg guisp=NONE blend=NONE gui=NONE
 set background=dark
 let g:colors_name="wool"
