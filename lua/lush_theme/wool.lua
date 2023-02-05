@@ -112,7 +112,7 @@ local theme = lush(function(injected_functions)
     Folded       { bg = grey03, fg = grey12 }, -- Line used for closed folds
     FoldColumn   { bg = grey03, fg = grey10 }, -- 'foldcolumn'
     -- SignColumn   { }, -- Column where |signs| are displayed
-    IncSearch    { bg = grey05, fg = orange, gui = "bold" }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
+    IncSearch    { fg = orange, gui = "bold" }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
     Search       { bg = grey06, fg = white }, -- Last search pattern highlighting (see 'hlsearch'). Also used for similar items that need to stand out.
     Substitute   { Search }, -- |:substitute| replacement text highlighting
     LineNr       { bg = grey03, fg = grey07 }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
@@ -130,8 +130,8 @@ local theme = lush(function(injected_functions)
     Question     { bg = grey03, fg = grey08, gui = "bold" }, -- |hit-enter| prompt and yes/no questions
     QuickFixLine { Search }, -- Current |quickfix| item in the quickfix window. Combined with |hl-CursorLine| when the cursor is there.
     SpecialKey   { bg = grey03, fg = grey08 }, -- Unprintable characters: text displayed differently from what it really is. But not 'listchars' whitespace. |hl-Whitespace|
-    SpellBad     { bg = grey03, fg = berry, sp = red }, -- Word that is not recognized by the spellchecker. |spell| Combined with the highlighting used otherwise.
-    SpellCap     { bg = grey03, fg = sky }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
+    SpellBad     { fg = berry, sp = red }, -- Word that is not recognized by the spellchecker. |spell| Combined with the highlighting used otherwise.
+    SpellCap     { fg = sky }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
     -- SpellLocal   { }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
     -- SpellRare    { }, -- Word that is recognized by the spellchecker as one that is hardly ever used. |spell| Combined with the highlighting used otherwise.
     StatusLine   { bg = grey02, fg = sky }, -- Status line of current window
@@ -158,7 +158,7 @@ local theme = lush(function(injected_functions)
     --
     -- Uncomment and edit if you want more specific syntax highlighting.
 
-    Comment        { bg = grey03, fg = slate, gui = "italic" }, -- Any comment
+    Comment        { fg = slate, gui = "italic" }, -- Any comment
 
     Constant       { fg = sky }, -- (*) Any constant
     String         { fg = teal }, --   A string constant: "this is a string"
@@ -167,50 +167,50 @@ local theme = lush(function(injected_functions)
     -- Boolean        { }, --   A boolean constant: TRUE, false
     -- Float          { }, --   A floating point constant: 2.3e10
 
-    Identifier     { bg = grey03, fg = grey12 }, -- (*) Any variable name
-    Function       { bg = grey03, fg = grey13 }, --   Function name (also: methods for classes)
+    Identifier     { fg = grey12 }, -- (*) Any variable name
+    Function       { fg = grey13 }, --   Function name (also: methods for classes)
 
-    Statement      { bg = grey03, fg = grey13, gui = "bold" }, -- (*) Any statement
+    Statement      { fg = grey13, gui = "bold" }, -- (*) Any statement
     -- Conditional    { }, --   if, then, else, endif, switch, etc.
     -- Repeat         { }, --   for, do, while, etc.
     -- Label          { }, --   case, default, etc.
-    Operator       { bg = grey03, fg = yellow }, --   "sizeof", "+", "*", etc.
+    Operator       { fg = yellow }, --   "sizeof", "+", "*", etc.
     -- Keyword        { }, --   any other keyword
     -- Exception      { }, --   try, catch, throw
 
-    PreProc        { bg = grey03, fg = grey13, gui = "bold" }, -- (*) Generic Preprocessor
-    Include        { bg = grey03, fg = steel }, --   Preprocessor #include
+    PreProc        { fg = grey13, gui = "bold" }, -- (*) Generic Preprocessor
+    Include        { fg = steel }, --   Preprocessor #include
     -- Define         { }, --   Preprocessor #define
     -- Macro          { }, --   Same as Define
     -- PreCondit      { }, --   Preprocessor #if, #else, #endif, etc.
 
-    Type           { bg = grey03, fg = grey12, gui = "bold" }, -- (*) int, long, char, etc.
+    Type           { fg = grey12, gui = "bold" }, -- (*) int, long, char, etc.
     -- StorageClass   { }, --   static, register, volatile, etc.
-    Structure      { bg = grey03, fg = steel }, --   struct, union, enum, etc.
+    Structure      { fg = steel }, --   struct, union, enum, etc.
     -- Typedef        { }, --   A typedef
 
     Special        { fg = yellow }, -- (*) Any special symbol
     -- SpecialChar    { }, --   Special character in a constant
     -- Tag            { }, --   You can use CTRL-] on this
-    Delimiter      { bg = grey03, fg = grey12 }, --   Character that needs attention
+    Delimiter      { fg = grey12 }, --   Character that needs attention
     -- SpecialComment { }, --   Special things inside a comment (e.g. '\n')
     -- Debug          { }, --   Debugging statements
 
     -- Underlined     { gui = "underline" }, -- Text that stands out, HTML links
     Ignore         { fg = "bg" }, -- Left blank, hidden |hl-Ignore| (NOTE: May be invisible here in template)
     -- Error          { }, -- Any erroneous construct
-    Todo           { bg = grey03, fg = lime, gui = "bold" }, -- Anything that needs extra attention; mostly the keywords TODO FIXME and XXX
+    Todo           { fg = lime, gui = "bold" }, -- Anything that needs extra attention; mostly the keywords TODO FIXME and XXX
 
     -- Help syntax groups.
-    helpSpecial  { bg = grey03, fg = grey12 },
-    helpHyperTextJump { bg = grey03, fg = shale, gui = "underline" },
-    helpNote     { bg = grey03, fg = grey12 },
+    helpSpecial  { fg = grey12 },
+    helpHyperTextJump { fg = shale, gui = "underline" },
+    helpNote     { fg = grey12 },
 
     -- Health syntax groups.
     healthSuccess { bg = lime, fg = "bg" },
 
     -- Telescope syntax groups.
-    -- TelescopeSelection { } , -- links to Visual
+    TelescopeSelection { CursorLine } , -- links to Visual
     -- TelescopeResultsComment { } , -- links to Comment
     -- TelescopeSelectionCaret { } , -- links to TelescopeSelection
     -- TelescopeMultiSelection { } , -- links to Type
