@@ -108,7 +108,7 @@ local theme = lush(function(injected_functions)
     TermCursor   { gui = "reverse" }, -- Cursor in a focused terminal
     -- TermCursorNC { }, -- Cursor in an unfocused terminal
     ErrorMsg     { bg = grey03, fg = lime }, -- Error messages on the command line
-    VertSplit    { bg = grey03, fg = grey04 }, -- Column separating vertically split windows
+    VertSplit    { fg = grey07 }, -- Column separating vertically split windows
     Folded       { bg = grey03, fg = grey12 }, -- Line used for closed folds
     FoldColumn   { bg = grey03, fg = grey10 }, -- 'foldcolumn'
     -- SignColumn   { }, -- Column where |signs| are displayed

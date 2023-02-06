@@ -67,7 +67,7 @@ highlight TermCursor guifg=NONE guibg=NONE guisp=NONE gui=reverse cterm=reverse
 highlight Title guifg=#DEE0E7 guibg=NONE guisp=NONE gui=bold cterm=bold
 highlight Todo guifg=#B9E067 guibg=NONE guisp=NONE gui=bold cterm=bold
 highlight Type guifg=#D4D4D4 guibg=NONE guisp=NONE gui=bold cterm=bold
-highlight VertSplit guifg=#2C2F30 guibg=#212226 guisp=NONE gui=NONE cterm=NONE
+highlight VertSplit guifg=#393D4C guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight! link Winseparator VertSplit
 highlight Visual guifg=NONE guibg=#31343F guisp=NONE gui=NONE cterm=NONE
 highlight WarningMsg guifg=#F8BC3A guibg=NONE guisp=NONE gui=NONE cterm=NONE
