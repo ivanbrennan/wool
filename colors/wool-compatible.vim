@@ -26,7 +26,7 @@ highlight LineNr guifg=#393D4C guibg=#212226 guisp=NONE gui=NONE cterm=NONE
 highlight MatchParen guifg=#B9E067 guibg=#212226 guisp=NONE gui=bold cterm=bold
 highlight ModeMsg guifg=#767D7F guibg=#212226 guisp=NONE gui=NONE cterm=NONE
 highlight MoreMsg guifg=#B8B8B8 guibg=NONE guisp=NONE gui=bold cterm=bold
-highlight NonText guifg=#A8A8A8 guibg=#212226 guisp=NONE gui=bold cterm=bold
+highlight NonText guifg=#737373 guibg=NONE guisp=NONE gui=bold cterm=bold
 highlight! link Whitespace NonText
 highlight Number guifg=#B4A0C5 guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight Operator guifg=#EBC57A guibg=NONE guisp=NONE gui=NONE cterm=NONE
