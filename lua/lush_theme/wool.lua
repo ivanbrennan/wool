@@ -230,7 +230,7 @@ local theme = lush(function(injected_functions)
     -- TelescopeResultsTitle { } , -- links to TelescopeTitle
     TelescopePreviewTitle { TelescopePreviewBorder } , -- links to TelescopeTitle
     TelescopePromptCounter { bg = grey02, fg = grey08 } , -- links to NonText
-    TelescopeMatching { fg = orange, gui = "bold" } , -- links to Special
+    TelescopeMatching { fg = teal, gui = "bold" } , -- links to Special
     TelescopePromptPrefix { bg = grey02 } , -- links to Identifier
     -- TelescopePreviewLine { } , -- links to Visual
     -- TelescopePreviewMatch { } , -- links to Search

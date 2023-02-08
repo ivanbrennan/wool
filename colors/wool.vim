@@ -52,7 +52,7 @@ highlight Structure guifg=#5B95AE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight TabLine guifg=#737373 guibg=#1C1E21 guisp=NONE blend=NONE gui=NONE
 highlight TabLineFill guifg=#1C1E21 guibg=#1C1E21 guisp=NONE blend=NONE gui=NONE
 highlight TabLineSel guifg=#D4D4D4 guibg=#212226 guisp=NONE blend=NONE gui=NONE
-highlight TelescopeMatching guifg=#F8BC3A guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight TelescopeMatching guifg=#ECBE79 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight TelescopePreviewBorder guifg=#212226 guibg=#212226 guisp=NONE blend=NONE gui=NONE
 highlight! link TelescopePreviewTitle TelescopePreviewBorder
 highlight TelescopePreviewNormal guifg=#D4D4D4 guibg=#212226 guisp=NONE blend=NONE gui=NONE
