@@ -66,6 +66,7 @@ local magenta = hsl("#b4a0c5")
 local steel   = hsl("#5b96af")
 local shale   = hsl("#778899")
 local slate   = hsl("#6f82a6")
+local cloud   = hsl("#a1b3c9")
 local sky     = hsl("#c4d5e5")
 local yellow  = hsl("#ebc578")
 local teal    = hsl("#ecbe7b")
@@ -99,7 +100,7 @@ local theme = lush(function(injected_functions)
     -- CursorIM     { }, -- Like Cursor, but used when in IME mode |CursorIM|
     CursorColumn { bg = grey05 }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
     CursorLine   { bg = grey05 }, -- Screen-line at the cursor, when 'cursorline' is set. Low-priority if foreground (ctermfg OR guifg) is not set.
-    Directory    { fg = grey11, gui = "bold" }, -- Directory names (and other special names in listings)
+    Directory    { fg = cloud, gui = "bold" }, -- Directory names (and other special names in listings)
     DiffAdd      { bg = green }, -- Diff mode: Added line |diff.txt|
     DiffChange   { bg = darkred }, -- Diff mode: Changed line |diff.txt|
     DiffDelete   { bg = grey00, fg = grey00 }, -- Diff mode: Deleted line |diff.txt|
@@ -210,6 +211,9 @@ local theme = lush(function(injected_functions)
 
     -- Health syntax groups.
     healthSuccess { bg = lime, fg = "bg" },
+
+    -- Dirvish syntax groups.
+    DirvishArg { fg = teal, gui = "bold" } , -- links to Todo
 
     -- Telescope syntax groups.
     TelescopeSelection { CursorLine } , -- links to Visual

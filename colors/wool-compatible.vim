@@ -12,7 +12,8 @@ highlight DiffAdd guifg=NONE guibg=#1C2717 guisp=NONE gui=NONE cterm=NONE
 highlight DiffChange guifg=NONE guibg=#371715 guisp=NONE gui=NONE cterm=NONE
 highlight DiffDelete guifg=#1C1C1C guibg=#1C1C1C guisp=NONE gui=NONE cterm=NONE
 highlight DiffText guifg=#D4D4D4 guibg=#692521 guisp=NONE gui=NONE cterm=NONE
-highlight Directory guifg=#B8B8B8 guibg=NONE guisp=NONE gui=bold cterm=bold
+highlight Directory guifg=#A1B3C9 guibg=NONE guisp=NONE gui=bold cterm=bold
+highlight DirvishArg guifg=#ECBE79 guibg=NONE guisp=NONE gui=bold cterm=bold
 highlight EndOfBuffer guifg=#1C1C1C guibg=#1C1C1C guisp=NONE gui=NONE cterm=NONE
 highlight ErrorMsg guifg=#B9E067 guibg=#212226 guisp=NONE gui=NONE cterm=NONE
 highlight FoldColumn guifg=#A8A8A8 guibg=#212226 guisp=NONE gui=NONE cterm=NONE
