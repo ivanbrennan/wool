@@ -149,6 +149,7 @@ local theme = lush(function(injected_functions)
     WarningMsg   { fg = orange }, -- Warning messages
     Whitespace   { NonText }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
     Winseparator { VertSplit }, -- Separator between window splits. Inherts from |hl-VertSplit| by default, which it will replace eventually.
+    FloatBorder  { VertSplit },
     -- WildMenu     { }, -- Current match in 'wildmenu' completion
 
     -- Common vim syntax groups used for all kinds of code and markup.
@@ -214,6 +215,21 @@ local theme = lush(function(injected_functions)
 
     -- Dirvish syntax groups.
     DirvishArg { fg = teal, gui = "bold" } , -- links to Todo
+
+    -- Hydra syntax groups.
+    HydraIgnore             { },
+    HydraHint               { bg = grey02, fg = grey08 },
+    HydraBorder             { FloatBorder },
+    HydraRed                { fg = orange, gui = 'italic' },
+    HydraStatusLineRed      { HydraRed },
+    HydraBlue               { fg = cloud, gui = 'italic' },
+    HydraStatusLineBlue     { HydraBlue },
+    HydraAmaranth           { HydraRed },
+    HydraStatusLineAmaranth { HydraRed },
+    HydraTeal               { HydraBlue },
+    HydraStatusLineTeal     { HydraBlue },
+    HydraPink               { HydraRed },
+    HydraStatusLinePink     { HydraRed },
 
     -- Telescope syntax groups.
     TelescopeSelection { CursorLine } , -- links to Visual

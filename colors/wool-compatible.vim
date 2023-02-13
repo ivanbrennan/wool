@@ -16,9 +16,22 @@ highlight Directory guifg=#A1B3C9 guibg=NONE guisp=NONE gui=bold cterm=bold
 highlight DirvishArg guifg=#ECBE79 guibg=NONE guisp=NONE gui=bold cterm=bold
 highlight EndOfBuffer guifg=#1C1C1C guibg=#1C1C1C guisp=NONE gui=NONE cterm=NONE
 highlight ErrorMsg guifg=#B9E067 guibg=#212226 guisp=NONE gui=NONE cterm=NONE
+highlight! link HydraBorder FloatBorder
 highlight FoldColumn guifg=#A8A8A8 guibg=#212226 guisp=NONE gui=NONE cterm=NONE
 highlight Folded guifg=#D4D4D4 guibg=#212226 guisp=NONE gui=NONE cterm=NONE
 highlight Function guifg=#DEE0E7 guibg=NONE guisp=NONE gui=NONE cterm=NONE
+highlight HydraBlue guifg=#A1B3C9 guibg=NONE guisp=NONE gui=italic cterm=italic
+highlight! link HydraStatusLineBlue HydraBlue
+highlight! link HydraStatusLineTeal HydraBlue
+highlight! link HydraTeal HydraBlue
+highlight HydraHint guifg=#737373 guibg=#1C1E21 guisp=NONE gui=NONE cterm=NONE
+highlight HydraIgnore guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
+highlight HydraRed guifg=#F8BC3A guibg=NONE guisp=NONE gui=italic cterm=italic
+highlight! link HydraAmaranth HydraRed
+highlight! link HydraPink HydraRed
+highlight! link HydraStatusLineAmaranth HydraRed
+highlight! link HydraStatusLinePink HydraRed
+highlight! link HydraStatusLineRed HydraRed
 highlight Identifier guifg=#D4D4D4 guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight Ignore guifg=bg guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight IncSearch guifg=#F8BC3A guibg=NONE guisp=NONE gui=bold cterm=bold
@@ -69,6 +82,7 @@ highlight Title guifg=#DEE0E7 guibg=NONE guisp=NONE gui=bold cterm=bold
 highlight Todo guifg=#B9E067 guibg=NONE guisp=NONE gui=bold cterm=bold
 highlight Type guifg=#D4D4D4 guibg=NONE guisp=NONE gui=bold cterm=bold
 highlight VertSplit guifg=#393D4C guibg=NONE guisp=NONE gui=NONE cterm=NONE
+highlight! link FloatBorder VertSplit
 highlight! link Winseparator VertSplit
 highlight Visual guifg=NONE guibg=#31343F guisp=NONE gui=NONE cterm=NONE
 highlight WarningMsg guifg=#F8BC3A guibg=NONE guisp=NONE gui=NONE cterm=NONE
