@@ -54,6 +54,7 @@ highlight Question guifg=#737373 guibg=#212226 guisp=NONE gui=bold cterm=bold
 highlight Search guifg=#EDEDED guibg=#31343F guisp=NONE gui=NONE cterm=NONE
 highlight! link QuickFixLine Search
 highlight! link Substitute Search
+highlight SignColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight Special guifg=#EBC57A guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight SpecialKey guifg=#737373 guibg=#212226 guisp=NONE gui=NONE cterm=NONE
 highlight SpellBad guifg=#E90C4B guibg=NONE guisp=#692521 gui=NONE cterm=NONE

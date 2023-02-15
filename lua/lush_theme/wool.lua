@@ -112,7 +112,7 @@ local theme = lush(function(injected_functions)
     VertSplit    { fg = grey07 }, -- Column separating vertically split windows
     Folded       { bg = grey03, fg = grey12 }, -- Line used for closed folds
     FoldColumn   { bg = grey03, fg = grey10 }, -- 'foldcolumn'
-    -- SignColumn   { }, -- Column where |signs| are displayed
+    SignColumn   { }, -- Column where |signs| are displayed
     IncSearch    { fg = orange, gui = "bold" }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
     Search       { bg = grey06, fg = white }, -- Last search pattern highlighting (see 'hlsearch'). Also used for similar items that need to stand out.
     Substitute   { Search }, -- |:substitute| replacement text highlighting
