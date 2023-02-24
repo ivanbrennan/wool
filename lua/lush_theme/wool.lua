@@ -118,7 +118,7 @@ local theme = lush(function(injected_functions)
     Substitute   { Search }, -- |:substitute| replacement text highlighting
     LineNr       { bg = grey03, fg = grey07 }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
     CursorLineNr { bg = grey03, fg = grey09 }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
-    MatchParen   { bg = grey03, fg = lime, gui = "bold" }, -- Character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
+    MatchParen   { fg = lime, gui = "bold" }, -- Character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
     ModeMsg      { bg = grey03, fg = grey09 }, -- 'showmode' message (e.g., "-- INSERT -- ")
     NonText      { fg = grey08 }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
     Normal       { bg = grey03, fg = grey12 }, -- Normal text

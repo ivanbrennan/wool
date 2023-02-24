@@ -37,7 +37,7 @@ highlight Ignore guifg=bg guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight IncSearch guifg=#F8BC3A guibg=NONE guisp=NONE gui=bold cterm=bold
 highlight Include guifg=#5B95AE guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight LineNr guifg=#393D4C guibg=#212226 guisp=NONE gui=NONE cterm=NONE
-highlight MatchParen guifg=#B9E067 guibg=#212226 guisp=NONE gui=bold cterm=bold
+highlight MatchParen guifg=#B9E067 guibg=NONE guisp=NONE gui=bold cterm=bold
 highlight ModeMsg guifg=#767D7F guibg=#212226 guisp=NONE gui=NONE cterm=NONE
 highlight MoreMsg guifg=#B8B8B8 guibg=NONE guisp=NONE gui=bold cterm=bold
 highlight NonText guifg=#737373 guibg=NONE guisp=NONE gui=NONE cterm=NONE
